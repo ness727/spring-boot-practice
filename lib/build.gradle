@@ -9,7 +9,7 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
 //스프링 부트 외부 라이브러리 버전 변경
-//ext['tomcat.version']='10.1.4'
+ext['tomcat.version']='10.1.4'
 
 configurations {
     compileOnly {
@@ -23,7 +23,6 @@ repositories {
 
 
 dependencies {
-//
 //    //1. 라이브러리 직접 지정
 //    //스프링 웹 MVC
 //    implementation 'org.springframework:spring-webmvc:6.0.4'
@@ -40,9 +39,9 @@ dependencies {
 //    implementation 'org.slf4j:jul-to-slf4j:2.0.6'
 //    //YML 관련
 //    implementation 'org.yaml:snakeyaml:1.33'
-
-
-    //2. 스프링 부트 라이브러리 버전 관리
+//
+//
+//    //2. 스프링 부트 라이브러리 버전 관리
 //    //스프링 웹, MVC
 //    implementation 'org.springframework:spring-webmvc'
 //    //내장 톰캣
