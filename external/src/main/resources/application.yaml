@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+url: my.dev.com
+username: dev_user
+password: asdf1234
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+url: my.prod.com
+username: prod_user
+password: 135676
