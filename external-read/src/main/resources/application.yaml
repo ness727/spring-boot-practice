@@ -7,4 +7,6 @@ my:
       max-connection: 1
       timeout: 3500ms
       options: CACHE, ADMIN
-
+spring:
+  profiles:
+    active: prod
