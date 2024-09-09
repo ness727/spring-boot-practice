@@ -10,3 +10,6 @@ my:
 spring:
   profiles:
     active: prod
+
+  datasource:
+    url:

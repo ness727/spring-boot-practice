@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 
 @Slf4j
-@EnableConfigurationProperties(MyDataSourcePropertiesV3.class)
+// @EnableConfigurationProperties(MyDataSourcePropertiesV3.class)
 public class MyDataSourceConfigV3 {
     private final MyDataSourcePropertiesV3 propertiesV3;
 
